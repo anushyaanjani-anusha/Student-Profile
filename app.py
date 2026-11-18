@@ -1,5 +1,6 @@
 import streamlit as st
 
+# Page configuration
 st.set_page_config(
     page_title="Student Profile Application",
     page_icon="🎓",
@@ -50,4 +51,5 @@ if st.button("View My Profile"):
         st.warning("Please fill all the details!")
 
 
+       
 
